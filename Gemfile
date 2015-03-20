@@ -26,6 +26,11 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
 gem 'spring',        group: :development
 
+#微信
+gem 'weixin_rails_middleware'
+# weixin auth
+gem 'omniauth'
+gem 'omniauth-weixin', git: 'https://github.com/sforce100/omniauth-weixin.git'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
